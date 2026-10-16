@@ -3,10 +3,5 @@
   "version": "1.0.0",
   "private": true,
   "description": "A serverless geek-joke API formatted for Yemot HaMashiach IVR",
-  "engines": {
-    "node": ">=18"
-  },
-  "scripts": {
-    "start": "node -e \"console.log('Deploy with Vercel; API routes are in /api')\""
-  }
+  "engines": { "node": ">=18" }
 }

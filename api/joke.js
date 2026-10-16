@@ -5,7 +5,6 @@ export default async function handler(req, res) {
     res.setHeader("Allow", "GET");
     return res.status(405).json({ error: "Method not allowed" });
   }
-
   const result = await fetchJoke();
   res.setHeader("Cache-Control", "no-store");
   return res.status(200).json({
